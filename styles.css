@@ -98,9 +98,14 @@ body {
     padding-left: .5rem;
     padding-right: 15rem;
     padding-top: .5rem;
+    display: flex;
     flex-flow: row wrap;
     justify-content: left;
+    flex-basis: 40%;
     background-color: #F2F2F2;
+  }
+  .title h1 {
+    padding-left: 5rem;
   }
   .top {
     margin-top: 90px;
@@ -109,7 +114,10 @@ body {
     padding-left: 5rem;
     flex-basis: 40%;
   }
- 
+  .center { 
+    align-content: center;
+    text-align: center;
+  }
   .main img {
     margin: 7.1rem 0 0 0;
     flex-basis: auto;
